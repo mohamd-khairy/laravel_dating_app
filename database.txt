@@ -1,0 +1,44 @@
+dating
+       
+1- Users
+      id
+      name
+      email
+      password
+
+2- UserData
+      id
+      age
+      gendar
+      mobile
+      location
+      religion
+      bio
+      nationality
+      Additional_information
+      User_id
+
+3- UserImage  
+      id
+      image
+      User_id
+      selected(boolean)
+
+4- Likes
+      id
+      User_id
+      like_user_id
+
+5- Message
+      id
+      User_id
+      message
+      date
+      likes_id
+
+6- Notify
+      id
+      User_id
+      noti
+      date
+      show(boolean)
